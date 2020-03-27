@@ -1,0 +1,44 @@
+{
+  "id": "85ced7f9-6443-4a00-9efa-5be854d6ac59",
+  "name": "Barcode Generator Examples",
+  "publisher": "IBO Digital",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Barcode Generator Examples",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Resources/BarcodeGenerator.png",
+  "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    },
+    {
+      "appId": "3a166617-0a1c-4cc6-a151-6f9810c6dcbd",
+      "publisher": "IBO Digital",
+      "name": "Barcode Generator",
+      "version": "1.2.15.4"
+    }
+  ],
+  "screenshots": [],
+  "platform": "15.0.0.0",
+  "idRanges": [
+    {
+      "from": 50901,
+      "to": 50905
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://BarcodeGeneratorExamples.com/help/",
+  "showMyCode": true,
+  "runtime": "4.0"
+}
