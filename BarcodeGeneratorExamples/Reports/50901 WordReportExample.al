@@ -20,16 +20,20 @@ report 50901 WordReportExample
             begin
 
                 //Parameter Description Barcode.GenerateBarcode(Sales Order No, BarcodeFormat, Barcode_Height, Barcode_Width, Barcode_Margin, IsPureBarcode, TempBlob);
-                Barcode.GenerateBarcode("No.", 'CODE_39', '100', '400', '0', 'true', TempBlob);
+                Barcode.GenerateBarcode("No.", 'CODE_39', '100', '400', '0', 'true', TempBlob1);
+                TempBlob1.CreateInStream(InStreamRep);
+                TempBlob.Blob.CreateOutStream(outStreamRep);
+                CopyStream(outStreamRep, InStreamRep)
             end;
 
         }
     }
 
     var
-        Barcode: Codeunit "IBO Digital Barcode Generator";
+        Barcode: Codeunit "IBODigital sBarcode";
         InStreamRep: InStream;
         outStreamRep: OutStream;
         TempBlob: Record TempBlob temporary;
+        TempBlob1: Codeunit "Temp Blob";
 
 }
