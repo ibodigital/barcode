@@ -1,2 +1,2 @@
-# barcode
-Generate Barcodes using “IBODigital Barcode Generator” Business Central Extension
+# sBarcode
+Generate barcodes using sBarcode - The barcode generator for Microsoft Dynamics 365 Business Central
