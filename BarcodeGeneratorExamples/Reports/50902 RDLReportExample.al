@@ -1,4 +1,4 @@
-report 50902 RDLReportExample
+report 50902 RDLReportExample1
 {
     UsageCategory = Administration;
     ApplicationArea = All;
